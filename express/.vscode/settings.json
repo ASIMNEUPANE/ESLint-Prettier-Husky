@@ -1,0 +1,7 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+    //this means when i save it fix eslint like runs a command like npx eslint --fix
+  },
+  "eslint.validate": ["javascript", "typescript"]
+}

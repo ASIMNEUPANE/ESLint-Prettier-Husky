@@ -5,7 +5,7 @@ import tseslint from 'typescript-eslint';
 export default [
   {
     languageOptions: { globals: globals.node },
-    //to prettifying the code using eslint
+    //to prettifying the code using eslint but we dont do it we will use preetier
     rules: {
       // Indentation rule: 2 spaces
       indent: ['error', 2],
