@@ -1,2 +1,2 @@
-npm test
-npm prettier
+npm run prettier
+git add .
