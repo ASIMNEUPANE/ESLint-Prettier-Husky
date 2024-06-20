@@ -6,9 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prettier": "prettier . --write",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "prettier": "prettier . --write"
   },
   "dependencies": {
     "@nx/eslint-plugin": "^19.3.0",
