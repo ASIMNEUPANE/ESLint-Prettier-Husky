@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
@@ -6,8 +7,19 @@ import './App.css';
 function App() {
   const [count, setCount] = useState(0);
 
+  const person = {
+    name: 'asim',
+    age: 1,
+  };
+
+  const callfn = ({ name, age }) => {
+    console.log(name, age);
+  };
+  callfn(person);
+
   return (
     <>
+      npx
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -19,7 +31,8 @@ function App() {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          count is
+          {count}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR

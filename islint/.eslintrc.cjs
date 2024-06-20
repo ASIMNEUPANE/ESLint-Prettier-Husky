@@ -1,3 +1,5 @@
+// This is the airbnb eslint config
+
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
